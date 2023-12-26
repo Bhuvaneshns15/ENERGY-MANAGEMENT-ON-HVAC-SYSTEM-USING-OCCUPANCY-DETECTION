@@ -4,13 +4,22 @@ This project proposes an energy management strategy for heating, ventilation, an
 
 PROCEDURE :
 
-Give the connections as per IR receiver circuit diagram with nodemcu
+Give the connections as per IR receiver circuit diagram with nodemcu4
+
 Upload the IR Reciever.ino code which is present in code section to the nodemcu.
+
 After uploading, Get the IR raw data codes by pressing temperature up and down buttons for desired temperature setpoint from the remote to the IR reciever
+
 Save the reciever IR raw data codes for using it while transmission
+
 Open the IR transmitter.ino code in Arduino IDLE
+
 Replace the existing raw data IR code with your respective remotes IR codes
+
 Give the connections as per IR transmitter circuit diagram
+
 Upload the IR transmitter.ino to the nodemcu
+
 After uploading, Run the control.py program
+
 Thus temperature setpoint will be controlled by the occupancy received from system
